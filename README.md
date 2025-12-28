@@ -80,7 +80,7 @@ Review `config.yaml` to customize models (optional):
 
 ```yaml
 llm:
-  model: gemini-1.5-flash
+  model: gemini-2.5-flash
 embedding:
   provider: google
   model: gemini-embedding-001
