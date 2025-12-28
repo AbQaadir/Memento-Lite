@@ -1,0 +1,21 @@
+[project]
+name = "memento"
+version = "0.1.0"
+description = "Project to impliment the memento research paper"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pymupdf",          # High performance PDF reading and extraction
+    "pypdf",            # Pure Python PDF library, good fallback
+    "google-genai",     # New Gemini API SDK
+    "python-dotenv",    # For managing API keys
+    "numpy",            # For vector operations
+    "duckduckgo-search", # For web search
+    "PyYAML",           # For configuration management
+    "streamlit",        # For the Web UI
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ipykernel", # For running in Jupyter notebooks
+]

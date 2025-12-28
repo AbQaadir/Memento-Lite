@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment Variables (Critical security!)
+.env
+
+# Memento Local Data
+memory.json
+paper_content.txt
+diagram/
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Mac/Windows
+.DS_Store
+Thumbs.db
+
+# Comparison/Reference Repos
+reference_memento/

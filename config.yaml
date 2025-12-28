@@ -1,0 +1,17 @@
+llm:
+  provider: gemini
+  model: gemini-flash-latest
+  api_key_env: GOOGLE_API_KEY
+
+embedding:
+  provider: google
+  model: gemini-embedding-001
+
+case_bank:
+  path: memory.json
+  top_k: 2
+
+tools:
+  - web_search
+  - python_repl
+  - calculator
